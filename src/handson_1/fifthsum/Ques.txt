@@ -1,0 +1,113 @@
+5. Create a class named Venue with the following private member variables / attributes  
+
+String name  
+
+String city  
+
+ 
+
+Include appropriate getters and setters.  
+
+[Naming Convention:  
+
+getters : getName getCity...  
+
+setters : setName setCity...]  
+
+ 
+
+Create another class and write a main method to test the above class. In the main method, get the choice from the user and update the corresponding venue details.  
+
+  
+
+Input and Output Format:  
+
+ Refer sample input and output for formatting specifications.  
+
+All text in bold corresponds to input and the rest corresponds to output.  
+
+   
+
+Sample Input and Output :  
+
+Enter the venue name  
+
+Green Park Stadium  
+
+Enter the city name  
+
+Kanpur  
+
+Venue Details  
+
+Venue Name : Green Park Stadium  
+
+City Name : Kanpur  
+
+Verify and Update Venue Details  
+
+Menu  
+
+1.Update Venue Name  
+
+2.Update City Name  
+
+3.All informations Correct/Exit  
+
+Type 1 or 2 or 3  
+
+2  
+
+Enter the city name  
+
+Chennai  
+
+Venue Details  
+
+Venue Name : Green Park Stadium  
+
+City Name : Chennai  
+
+Verify and Update Venue Details  
+
+Menu  
+
+1.Update Venue Name  
+
+2.Update City Name  
+
+3.All informations Correct/Exit  
+
+Type 1 or 2 or 3  
+
+1  
+
+Enter the venue name  
+
+Chidambaram Stadium  
+
+Venue Details  
+
+Venue Name : Chidambaram Stadium  
+
+City Name : Chennai  
+
+Verify and Update Venue Details  
+
+Menu  
+
+1.Update Venue Name  
+
+2.Update City Name  
+
+3.All informations Correct/Exit  
+
+Type 1 or 2 or 3  
+
+3  
+
+Venue Details  
+
+Venue Name : Chidambaram Stadium  
+
+City Name : Chennai 

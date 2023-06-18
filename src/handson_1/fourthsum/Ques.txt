@@ -1,0 +1,35 @@
+4. Create a class named Player with the following member variables / attributes (default access)  
+
+Data Type	Variable Name 
+
+String		name 
+
+String		country 
+
+String		skill 
+
+Create another class called Main and write a main method to get the player details in a string seperated by comma.Use String. split() function to display the details.  
+
+ 
+
+Input and Output Format:  
+
+Refer sample input and output for formatting specifications.  
+
+All text in bold corresponds to input and the rest corresponds to output.  
+
+ 
+
+Sample Input and Output :  
+
+Enter the player details  
+
+MS Dhoni,India,All Rounder  
+
+Player Details  
+
+Player Name : MS Dhoni  
+
+Country Name : India  
+
+Skill : All Rounder  
