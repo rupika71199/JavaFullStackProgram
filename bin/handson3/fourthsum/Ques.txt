@@ -1,0 +1,53 @@
+4. In Cricket it is so common that the players are often called by their last names. Few cricketers have their origins from the same regions of the country which is why they have common last names. Sandeep is now entrusted with yet another task that is to check for the last names of players. 
+
+Given two player's names P1 and P2, Sandeep has to write a program to find if the last name of the two given players are the same. Help him do this using String Builder  method. 
+
+Include a class UserMainCode with a static method called display which accepts two strings and its return type is void. In this method display the details as given in sample input and output. 
+
+Create a Class Main which would be used to accepts two  Strings and call the static method called display present in UserMainCode. 
+
+ 
+
+Input Format: 
+
+First line of the input is a string P1, that corresponds to the first player's name. 
+
+Second line of the input is a string P2, that corresponds to the second player's name. 
+
+ 
+
+Output Format: 
+
+Output should print in a single line “Yes” if the last names of the players are the same. Otherwise print “No”. 
+
+ 
+
+Sample input 
+
+Mohit Sharma 
+
+Rohit Sharma 
+
+ 
+
+Sample output 
+
+Yes 
+
+ 
+
+  
+
+Sample input 
+
+Mohit Sharma 
+
+Virat Kohli 
+
+ 
+
+Sample output 
+
+No 
+
+ 

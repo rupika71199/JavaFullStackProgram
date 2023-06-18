@@ -1,0 +1,57 @@
+1. Team Details 
+
+Create a class named Team with the following private member variables / attributes          
+
+String name;       
+
+String coach;       
+
+String location;   
+
+String players     
+
+String captain     
+
+ 
+
+Include appropriate getters and setters. 
+
+[Naming Convention: 
+
+getters : getName getCoach .. 
+
+setters : setName, setCoach...] 
+
+ Include a 5-argument argument constructor in this class. The arguments passed to the constructor are in this order --- name, coach, location,players,captain. 
+
+Include a default empty constructor. 
+
+Create another class named Main and include a main method to test the above class(Print the output in Main Class). 
+
+ 
+
+ Input and Output Format: 
+
+Refer sample input and output for formatting specifications. 
+
+Read the team details as a string value separate by '#'. Use string.split() function to display the team details 
+
+All text in bold corresponds to input and the rest corresponds to output. 
+
+ 
+
+ Sample Input and Output : 
+
+Enter the team details 
+
+CSK#Stephen Fleming#Chennai#MS Dhoni,Aswin,Raina,Hussey,Maxwel,Bravo,Morkel,Jadeja,Mohit Sharma,Hayden,du plessis,Abhinav Mukund#MS Dhoni 
+
+Team : CSK 
+
+Coach : Stephen Fleming 
+
+Location : Chennai 
+
+Players : MS Dhoni,Aswin,Raina,Hussey,Maxwel,Bravo,Morkel,Jadeja,Mohit Sharma,Hayden,du plessis,Abhinav Mukund 
+
+Captain : MS Dhoni 

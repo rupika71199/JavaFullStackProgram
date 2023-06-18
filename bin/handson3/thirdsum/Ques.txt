@@ -1,0 +1,45 @@
+3. IPL Merchandise is an alternative form of revenue and brings substantial income. 
+
+ 
+
+Another merchandise company called “Fundas” has come up with a native flair offering customized mugs, team badges, helmets, etc. The company has decided to print a special code on the merchandises. The special code contains the captions of the IPL teams along with the jersey number of the celebrity players of the corresponding team on the merchandises. The code to be printed is considered valid for printing only if their: 
+
+--> first word is one of the team's caption [RCB, MI, CSK, SRH, KXIP, DD, KKR, RPSG and GL] 
+
+--> second word is the jersey number 
+
+Write a program that reads a string S corresponding to the team name and jersey number and validates if the name is eligible to be printed on the stocks. 
+
+Include a class UserMainCode with a static method called validateTeam which accepts a string and its return type is bool. In this method display the details as given in sample input and output. 
+
+Create a Class Main which would be used to accept two Strings and call the static method called validateTeam present in UserMainCode. 
+
+Input Format: 
+
+First line of the input is a string S, that corresponds to the team name and jersey number. 
+
+ 
+
+Output Format: 
+
+Output should display “Valid” if the team name and jersey number is valid for printing. Otherwise print “Invalid”. 
+
+ 
+
+Sample Input 1 : 
+
+CSK 7 
+
+Sample Output 1 : 
+
+Valid 
+
+ 
+
+Sample Input 2 : 
+
+RCB1 18 
+
+Sample Output 2 : 
+
+Invalid 

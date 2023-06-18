@@ -1,0 +1,87 @@
+Wicket details 
+
+Create a class named Wicket with the following private member variables / attributes 
+
+Long over            
+
+Long ball              
+
+String wicketType            
+
+String playerName           
+
+String bowlerName 
+
+Include a 5-argument argument constructor in this class. The arguments passed to the constructor are in this order --- over, ball,wicketType,playerName,bowlerName. 
+
+Include a default empty constructor. 
+
+ Include appropriate getters and setters. 
+
+[Naming Convention: 
+
+getters : getOver getBall ... 
+
+setters : setOver, setBall...] 
+
+Create another class named Main and include a main method to test the above class (Print the output in Main Class). 
+
+Input and Output Format: 
+
+Refer sample input and output for formatting specifications. 
+
+Use array of objects to read wicket details and use String.split() function to display the wicket details. 
+
+All text in bold corresponds to input and the rest corresponds to output. 
+
+ 
+
+Sample Input and Output: 
+
+Enter the number of wickets 
+
+3 
+
+Enter the details of wicket 1 
+
+5,2,LBW,Gautam Gambir,Aswin 
+
+Enter the details of wicket 2 
+
+6,6,Bowled,Brad Hogg,Dwayne Bravo 
+
+Enter the details of wicket 3 
+
+7,3,Stumped,Robin Uthappa,Ravindra Jadeja 
+
+Wicket Details 
+
+Over : 5 
+
+Ball : 2 
+
+Wicket Type : LBW 
+
+Player Name : Gautam Gambir 
+
+Bowler Name : Aswin 
+
+Over : 6 
+
+Ball : 6 
+
+Wicket Type : Bowled 
+
+Player Name : Brad Hogg 
+
+Bowler Name : Dwayne Bravo 
+
+Over : 7 
+
+Ball : 3 
+
+Wicket Type : Stumped 
+
+Player Name : Robin Uthappa 
+
+Bowler Name : Ravindra Jadeja 
