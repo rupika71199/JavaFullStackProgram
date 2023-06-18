@@ -1,0 +1,77 @@
+1.	Venue Details 
+
+[Note : 
+
+Strictly adhere to the object oriented specifications given as a part of the problem statement. 
+
+Use the same class names and member variable names. 
+
+Follow the naming conventions mentioned for getters / setters. 
+
+Create 3 separate classes in 3 separate files.]  
+
+ 
+
+Create a class named Venue with the following private member variables / attributes  
+
+Data Type	Variable Name 
+
+String	           name 
+
+String	           city 
+
+ 
+
+Include appropriate getters, setters and constructors.  
+
+Naming Convention :  
+
+getters --- getName,etc...  
+
+setters --- setName,etc...  
+
+ 
+
+Include a default constructor.  
+
+Include a 2-argument constructor --- the 1st argument corresponds to the name and the 2nd argument corresponds to the city.  
+
+ 
+
+Override the toString() method to display the venue details in the following format specified in the output.  
+
+ 
+
+ 
+
+Create a class named VenueBO and include the following methods  
+
+No	Method Name	                          Method Description 
+
+1	void displayVenueDetails(Venue venue)	In this method, display the                                                 details of  the venue. 
+
+ 
+
+Input and Output Format:  
+
+ 
+
+Refer sample input and output for formatting specifications.  
+
+All text in bold corresponds to input and the rest corresponds to output.  
+
+Note : The statement " Venue Details" in the output is displayed in the method inside the BO class.  
+
+Sample Input and Output :  
+
+Enter the venue name  
+
+M Chidhambaram Stadium  
+
+Enter the city name  
+
+Chennai  
+
+Venue Details  
+
+M Chidhambaram Stadium,Chennai  

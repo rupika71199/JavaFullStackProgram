@@ -1,0 +1,113 @@
+2. Player Details(Array of objects) 
+
+ 
+
+[ Note : 
+
+Strictly adhere to the object oriented specifications given as a part of the problem statement. 
+
+Use the same class names and member variable names. 
+
+Follow the naming conventions mentioned for getters / setters. 
+
+Create 3 separate classes in 3 separate files.]  
+
+ 
+
+Create a class named Player with the following private member variables / attributes  
+
+Data Type	Variable Name 
+
+String	          name 
+
+String	          country 
+
+String	          skill 
+
+ 
+
+Include appropriate getters, setters and constructors.  
+
+Naming Convention :  
+
+getters --- getName,etc...  
+
+setters --- setName,etc...  
+
+ 
+
+Include a 3-argument constructor --- the first argument corresponds to the value of name , second argument corresponds to the value of country and the third argument corresponds to the value of skill .  
+
+ 
+
+Override the toString() method to display the player details in the format specified in the output.  
+
+ 
+
+Create a class named PlayerBO and include the following methods  
+
+No	Method Name	 
+
+Method Description 
+
+1	void displayAllPlayerDetails(Player[] playerList)	In this method, display the details of all players. 
+
+ 
+
+Input and Output Format:  
+
+Refer sample input and output for formatting specifications.  
+
+All text in bold corresponds to input and the rest corresponds to output.  
+
+Note : The statement " Player Details" in the output is displayed in the method inside the BO class.  
+
+Sample Input and Output :  
+
+Enter the number of players  
+
+3  
+
+Enter the player name  
+
+MS Dhoni  
+
+Enter the country name  
+
+India  
+
+Enter the skill  
+
+All Rounder  
+
+Enter the player name  
+
+Suresh Raina  
+
+Enter the country name  
+
+India  
+
+Enter the skill  
+
+All Rounder  
+
+Enter the player name  
+
+Michael Hussey  
+
+Enter the country name  
+
+Australia  
+
+Enter the skill  
+
+Batsman  
+
+Player Details  
+
+MS Dhoni               India           All Rounder  
+
+Suresh Raina           India           All Rounder  
+
+Michael Hussey         Australia   Batsman  

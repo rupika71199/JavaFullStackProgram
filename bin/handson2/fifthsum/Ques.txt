@@ -1,0 +1,339 @@
+5. Inheritance – Vehicle 
+
+ 
+
+[Strictly adhere to the Object Oriented Specifications mentioned in the problem. Use the same Class names, attribute names and method names specified here. Use appropriate naming conventions for getters and setters. Create all classes in separate files] 
+
+The task is to get the details of the vehicle and display the details using a menu driven application. 
+
+Write a Java program to Implement this task. 
+
+ 
+
+Create a class Vehicle 
+
+Include the following protected data members / attributes: 
+
+make – of type String 
+
+vehicleNumber – of type String 
+
+fuelType – of type String 
+
+ 
+
+fuelCapacity - of type Integer 
+
+cc – of type Integer 
+
+ 
+
+Include the following public methods 
+
+ 
+
+Create a constructor that initializes all the data members --- public Vehicle(String make,String vehicleNumber,String fuelType,Integer fuelCapacity,Integer cc) 
+
+ 
+
+displayMake – Display the make of the vehicle 
+
+ 
+
+"displayBasicInfo" – display basic information of the vehicle. 
+
+"displayDetailInfo" – An empty method. 
+
+ 
+
+ 
+
+ 
+
+Create a class TwoWheeler that extends Vehicle 
+
+ 
+
+Include the following private attributes / data members: 
+
+ 
+
+kickStartAvailable – of type Boolean. 
+
+ 
+
+Include the following public methods 
+
+ 
+
+Include appropriate constructors. 
+
+ 
+
+"displayDetailInfo" – displays the availability of kick start. 
+
+ 
+
+ 
+
+ 
+
+Create a class FourWheeler that extends Vehicle 
+
+Include the following private attributes / data members: 
+
+audioSystem – of type String. 
+
+numberOfDoors – of type Integer. 
+
+Include the following public methods 
+
+Include appropriate constructors. 
+
+"displayDetailInfo" - displays the audio system and number of doors. 
+
+ 
+
+Include getter setters for all the classes. 
+
+Create a main class to test the classes defined above. 
+
+ 
+
+Input and Output Format: 
+
+Refer sample input and output for formatting specifications. 
+
+All text in bold corresponds to input and the rest corresponds to output 
+
+Sample Input Output 1: 
+
+1.Four Wheeler 
+
+ 
+
+2.Two Wheeler 
+
+ 
+
+Enter Vehicle Type: 
+
+ 
+
+1 
+
+ 
+
+Vehicle Make: 
+
+ 
+
+Volvo 
+
+ 
+
+Vehicle Number: 
+
+ 
+
+TN01BR9689 
+
+ 
+
+Fuel Type: 
+
+ 
+
+1.Petrol 
+
+ 
+
+2.Diesel 
+
+ 
+
+2 
+
+ 
+
+Fuel Capacity: 
+
+ 
+
+40 
+
+ 
+
+Engine CC: 
+
+ 
+
+1960 
+
+ 
+
+Audio System: 
+
+ 
+
+Beats 
+
+ 
+
+Number of Doors: 
+
+ 
+
+5 
+
+ 
+
+***Volvo*** 
+
+ 
+
+---Basic Information--- 
+
+ 
+
+Vehicle Number:TN01BR9689 
+
+ 
+
+Fuel Capacity:40 
+
+ 
+
+Fuel Type:Diesel 
+
+ 
+
+CC:1960 
+
+ 
+
+---Detail Information--- 
+
+ 
+
+Audio System:Beats 
+
+ 
+
+Number of Doors:5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Sample Input and Output 2: 
+
+ 
+
+1.Four Wheeler 
+
+ 
+
+2.Two Wheeler 
+
+ 
+
+Enter Vehicle Type: 
+
+ 
+
+2 
+
+ 
+
+Vehicle Make: 
+
+ 
+
+Suzuki 
+
+ 
+
+Vehicle Number: 
+
+ 
+
+TN60Z1234 
+
+ 
+
+Fuel Type: 
+
+ 
+
+1.Petrol 
+
+ 
+
+2.Diesel 
+
+ 
+
+1 
+
+ 
+
+Fuel Capacity: 
+
+ 
+
+15 
+
+ 
+
+Engine CC: 
+
+ 
+
+150 
+
+ 
+
+Kick Start Available(yes/no): 
+
+ 
+
+yes 
+
+ 
+
+***Suzuki*** 
+
+ 
+
+---Basic Information--- 
+
+ 
+
+Vehicle Number:TN60Z1234 
+
+ 
+
+Fuel Capacity:15 
+
+ 
+
+Fuel Type:Petrol 
+
+ 
+
+CC:150 
+
+ 
+
+---Detail Information--- 
+
+ 
+
+Kick Start Available:YES 

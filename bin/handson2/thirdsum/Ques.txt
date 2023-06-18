@@ -1,0 +1,85 @@
+3.Method Overriding 
+
+  Player-International Player 
+
+ Write a program to illustrate Method Overriding.  
+
+   
+
+Create a class named  Player with following protected attributes. 
+
+•	String name; 
+
+•	String country; 
+
+ Create appropriate Constructor.  
+
+create a method public void displayDetails() to display the player details.  
+
+ 
+
+ Create a class named  InternationalPlayer  that extends  Player class.  
+
+which includes following private attributes 
+
+•	String capNumber; 
+
+•	Long noOfTestAppearance; 
+
+•	Long noOfODIAppearance; 
+
+   
+
+  Create appropriate Constructor.  
+
+Override the method public void displayDetails() defined in the Player class to  display InternationalPlayer details and player details  
+
+   
+
+Create a Main class and in the main method test the above class.  
+
+  
+
+Input and Output Format:  
+
+Refer sample input and output for formatting specifications.  
+
+All text in bold corresponds to input and the rest corresponds to output.  
+
+  Note: Display the text " Player Details: " inside the method DisplayDetails  
+
+  
+
+Sample Input and Output 1:  
+
+Enter player name  
+
+Virat Kohli  
+
+Enter player country  
+
+India  
+
+Enter the Cap number  
+
+268  
+
+Enter the number of test appearnace  
+
+48  
+
+Enter the number of ODI appearnace  
+
+176  
+
+Player Details:  
+
+Player name : Virat Kohli  
+
+Country : India  
+
+Cap number : 268  
+
+Number of test appearnace : 48  
+
+Number of ODI appearnace : 176  
